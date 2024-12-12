@@ -4,7 +4,6 @@ Maybe say a some things about yourself.
 
 Or maybe what you plan to blog about.
 
-
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -13,4 +12,5 @@ Or maybe what you plan to blog about.
     {% endfor %}
   </ul>
 {% endfor %}
+
 
